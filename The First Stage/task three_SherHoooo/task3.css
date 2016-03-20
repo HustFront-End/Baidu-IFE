@@ -1,0 +1,70 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+ }
+body{
+	padding:20px;
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu; "Arial","宋体",sans-serif;
+
+}
+div{
+	padding:20px;
+	border:1px solid #999;
+}
+#container{
+	background-color:#eee;
+	overflow:hidden;
+}
+#container div{
+	background-color:#fff;
+}
+#logo{
+	width:160px;
+	float:left;
+	margin-right:20px;
+}
+#logo img{
+	width:80px;
+	height:80px;
+	border:1px solid #999;
+}
+
+#logo span{
+	font-size:27px;
+}
+#logo p{
+	font-size:15px;
+	color:rgb(180,180,180);
+	text-align:center;
+	display:inline-block;
+}
+#introduce{
+	margin:0px 20px 0px 20px;
+	text-align:center;
+	text-indent:2em;
+	overflow:hidden;
+}
+#introduce img{
+	float:left;
+	width:40%;
+	z-index:-1;
+	opacity:0.8;
+}
+#memberlogo {
+	float:right;
+	width:80px;
+	border:1px solid #999;
+	text-align:center;
+	list-style: none;
+	padding:10px 20px 10px 20px;
+	margin-left:20px;
+}
+#memberlogo img{
+	width:80px;
+	height:80px;
+	border:1px solid #999;
+}
+#memberlogo li{
+	list-style:none;
+	margin:10px 0px 10px 0px;
+}

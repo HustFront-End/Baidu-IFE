@@ -28,10 +28,16 @@ body,div,dl,dt,dd,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,block
 
 }
 #nav a{
-	color:rgb(220,220,220);
+	color:rgb(255,255,255);
 	text-decoration:none;
 	line-height:70px;
 }
+#nav a:hover{
+	color:rgb(200,200,200);
+	text-decoration:none;
+	line-height:70px;
+}
+
 
 /*四个包容块以及其内部长段落的样式*/
 .container{

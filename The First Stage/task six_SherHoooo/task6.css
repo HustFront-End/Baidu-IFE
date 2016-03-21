@@ -1,0 +1,152 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+ }
+body{
+	margin:0;
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu; "Arial","宋体",sans-serif;
+	background-color:rgb(100,100,100);
+}
+#container{
+	background-color:#fff;
+	width:892px;
+	height:1386px;
+	margin:auto;
+	padding:0px 44px 0px 44px;
+}
+/*顶部*/
+#top{
+	font-family:"SimHei",黑体,"Microsoft YaHei",微软雅黑;
+	font-size:12px;
+	position:relative;
+}
+#urlblock{
+	width:110px;
+	height:61px;
+	background-color:#d45d5c;
+	color:#ffffff;
+}
+#urlblock p{
+	position:absolute;
+	top:42px;
+	left:5px;
+}
+#date{
+	position:absolute;
+	top:12px;
+	right:0px;
+	color:#d45d5c;
+	position:absolute;
+	top:45px;
+	right:0px;
+}
+
+/*第二行*/
+#secondline {
+	margin:30px 0px 30px 0px;
+}
+#picture{
+	position:relative;
+	width:641px;
+	display:inline-block;
+}
+#picture div{
+	width:191px;
+	height:301px;
+	opacity:0.5;
+	position:absolute;
+	top:0px;
+	z-index:100;
+}
+#leftcover {
+	left:0px;
+	background-color:#418c59;
+}
+#rightcover{
+	right:0px;
+	background-color:#d45d5c;
+}
+#disc{
+	font-family:"Microsoft YaHei",微软雅黑;
+	float:right;
+	width:203px;
+	height:301px;
+}
+#one,#two{
+	font-size:24px;
+	color:#000000;
+	text-decoration:underline;
+	line-height:40px;
+}
+#three{
+	font-size:12px;
+	color:#676767;
+	font:"KaiTi"，楷体;
+	line-height:10px;
+	font-style:oblique;
+}
+#four{
+	font-size:116px;
+	color:#75b86b;
+	font-style:oblique;
+	margin-left:-14px;
+}
+#five{
+	display:inline-block;
+	font-size:55px;
+	color:#cc8091;
+	float:left;
+	line-height:38px;
+}
+#six{
+	font-size:21px;
+	color:#cc8091;
+	line-height:0.6em;
+	position:relative;
+	top:18px;
+}
+#six span{
+	font-size:12px;
+	color: #ccc;
+}
+
+/*第三行区域*/
+#thirdline div{
+	float:left;
+	width:197px;
+	height:200px;
+	font:"Microsoft YaHei",微软雅黑;
+}
+#thirdline P{
+	font-size:12px;
+	line-height:16px;
+}
+#thirdline h{
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:underline;
+	line-height:40px;
+}
+#what h{
+	color:#418c49;
+}
+#what p{
+	color: #767777;
+	font: "SimSong",宋体；
+}
+#when{
+	margin:0px 25px 0px 25px;
+}
+#when h{
+	color:#d2994f;
+}
+#when p,#how p{
+	color: #231815;
+	opacity:0.7;
+}
+#how h{
+	color:#cc7680;
+}
+#how p{
+	line-height:22px;
+}

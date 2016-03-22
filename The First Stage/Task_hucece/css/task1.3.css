@@ -1,0 +1,58 @@
+*{
+	font-family: "微软雅黑"；
+}
+.wrapper{
+	background: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 10px;
+	overflow: hidden;
+}
+.side_left,.side_right,.main{
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #999;
+}
+.side_left{
+	float: left;
+	width: 200px;
+}
+.main{
+	margin-left: 280px;
+	margin-right: 200px;
+	font-size: 14px;
+} 
+.side_right{
+	float: right;
+	width: 120px;
+}
+
+/*左边的Logo*/
+.logo{
+	border: 1px solid #999;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	float: left;
+	background: #999;
+}
+.side_left p{
+	margin-left: 100px;
+
+}
+/*main部分*/
+.main p{
+	text-indent: 2em;
+}
+/*右边照片*/
+.side_right li{
+	list-style: none;
+	width: 80px;
+	height: 80px;
+	margin-bottom: 10px;
+	border: 1px solid #999;
+	text-align: center;
+	position: relative;
+	left: -25%;
+	background: #999;
+}

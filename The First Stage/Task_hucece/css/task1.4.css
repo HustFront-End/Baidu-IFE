@@ -1,0 +1,40 @@
+*{
+	font-family: "微软雅黑";
+	padding: 0px;
+	margin: 0px;
+	/*这两个必须设置为0，否则影响下面的content布局*/
+}
+.wrapper{
+	width: 700px;
+	height: 600px;
+	background: #eee;
+	border: 1px solid #999;
+	margin: 10px;
+	position: relative;
+}
+.content{
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -100px 0 0 -200px;
+	overflow: hidden;
+}
+.circle1,.circle2{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;  /*ie9支持为了兼容性可以用图片代替这个圆圆*/
+	-moz-border-radius:50px;	
+	background: #fc0;
+	position: relative;
+}
+.circle1{
+	left: -50px;
+	top: -50px;
+}
+.circle2{
+	left: 350px;
+	top: 50px;
+}

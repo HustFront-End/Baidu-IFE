@@ -1,0 +1,150 @@
+/*清除元素自定义内外边距*/
+body,div,dl,dt,dd,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,blockquote,hr,button,article,aside,details,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+ }
+ body{
+	 font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu; "Arial","宋体",sans-serif;
+	 background-color:rgb(200,200,200);
+}
+
+/*导航栏部分*/
+#nav {
+	height:70px;
+	width: 100%;
+	background-color:rgb(50,50,50);
+}
+#nav ul{
+	float:right;
+	margin:0;
+}
+#nav li{
+	display:inline-block;
+	margin-right: 20px;
+}
+#nav img{
+	height:60px;
+	margin:5px 0px 5px 60px;
+
+}
+#nav a{
+	color:rgb(255,255,255);
+	text-decoration:none;
+	line-height:70px;
+}
+#nav a:hover{
+	color:rgb(200,200,200);
+	text-decoration:none;
+	line-height:70px;
+}
+
+
+/*四个包容块以及其内部长段落的样式*/
+.container{
+	margin:20px;
+	padding:20px;
+	box-shadow:1px 1px 2px rgb(20,20,20);
+	background-color:#FFF;
+}
+.paragraph{
+	text-indent:2em;
+}
+
+/*第二个包含块*/
+#Thesecond ul{
+	list-style:none;
+	margin-left:-15px;
+}
+
+/*第三个包含块*/
+figure{
+	text-align:center;
+	width:200px;
+	height:230px;
+	border:2px solid rgb(200,200,200);
+	padding:10px;
+}
+figcaption{
+	margin:10px;
+}
+
+/*第四个包含块*/
+#Thefouth ol{
+	font-weight:bold;
+}
+table{
+	border-collapse:collapse;
+	width:100%;
+	border:2px solid rgb(180,180,180);
+	padding: 5px;
+}
+th{
+	background-color:rgb(50,50,50);
+	color:rgb(220,220,220);
+	padding:5px;
+}
+td{
+	padding:5px;
+}
+#All{
+	background-color:rgb(180,180,180);
+	font-weight:bold;
+}
+
+/*最后一个表单包含块*/
+#Thelast{
+	margin:40px 50px 20px 20px;
+	padding:20px;
+	box-shadow:1px 1px 2px rgb(20,20,20);
+	background-color:#FFF;
+	position:relative;
+}
+#Thelast h2{
+	border-left:3px solid rgb(180,180,180);
+	padding:4px 0px 4px 10px;
+	margin:10px;
+}
+#Thelast table{
+	border:0;
+	margin-left:200px;
+}
+#Thelast p{
+	font-size:15px;
+	color:rgb(150,150,150);
+	margin: 0px 0px 15px 0px;
+	padding: 0;
+}
+.pls{
+	text-align:right;
+}
+input[type="text"]{
+	padding:5px 0px 5px 2px;
+	width:140px;
+}
+input[type="password"]{
+	width:140px;
+	font-size:15px;
+	padding:5px 0px 5px 2px;
+}
+textarea{
+	width:600px;
+	height:80px;
+	font-size:18px;
+}
+#submit{
+	width: 100%;
+	height:40px	;
+	background-color:#06f;
+	border-radius:12px;
+	font-size: 20px;
+	color:#FFF;
+}
+footer{
+	width: 100%;
+	height:70px;
+	background-color:rgb(50,50,50);
+	text-align:center;
+	padding-top:10px;
+	font-size:18px;
+	color:#FFF;
+}

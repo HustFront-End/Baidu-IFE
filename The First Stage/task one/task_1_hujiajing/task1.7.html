@@ -6,7 +6,7 @@
  	<link rel="stylesheet" type="text/css" href="css/task1.7.css">
 </head>
 <body>
-	<div class="wrapper">
+	<div id="wrapper">
 		<div class="header">
 			<div class="logo">
 				<img src="image/a7.11.png">
@@ -55,24 +55,40 @@
 					<p>每个城市的有不同的活动信息，请自主查询你需要了解的城市</p>
 				</div>
 				<div class="find_city">
-					<select>
-						<option value="china">中国</option>
-					</select>
-					<select>
-						<option value="beijing">北京</option>
-						<option value="nanjing">南京</option>
-						<option value="wuhan">武汉</option>
-						<option value="hangzhou">杭州</option>
-						<option value="hangzhou">上海</option>
-					</select>
-					<select>
-						<option value="beijing">北京</option>
-						<option value="nanjing">南京</option>
-						<option value="wuhan">武汉</option>
-						<option value="hangzhou">杭州</option>
-						<option value="hangzhou">上海</option>
-					</select>
-					<div class="find_go">搜索</div>
+							<a class="btn-select" id="btn_select"> 
+             					<span class="cur-select">中国</span> 
+                				<select> 
+                  					<option>韩国</option> 
+                  					<option>日本</option> 
+                  					<option>泰国</option> 
+               					</select> 
+         					 </a> 
+							<a class="btn-select" id="btn_select"> 
+             					 <span class="cur-select">省份</span> 
+               					 <select> 
+                  					<option>韩国</option> 
+					                <option value="beijing">北京</option>
+									<option value="nanjing">湖北</option>
+									<option value="wuhan">江苏</option>
+									<option value="hangzhou">浙江</option>
+									<option value="hangzhou">四川</option>
+               					</select> 
+          					</a> 
+							<a class="btn-select" id="btn_select"> 
+             					 <span class="cur-select">城市</span> 
+               					 <select> 
+                  					<option>韩国</option> 
+					                <option value="beijing">北京</option>
+									<option value="nanjing">南京</option>
+									<option value="wuhan">武汉</option>
+									<option value="hangzhou">杭州</option>
+									<option value="hangzhou">上海</option>
+               					</select> 
+          					</a> 
+						<a class="find_go">
+							搜索
+						</a>
+		
 				</div>
 			</div>
 
@@ -154,10 +170,10 @@
 				</tr>
 			</table>
 		</div>
-
+		
 				<div class="join_us">
 					<div class="join_title">
-						<h2>成为我的志愿者</h2>
+						<h2>成为我们的志愿者</h2>
 						<hr>
 						<p>
 							新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情<br>那就不要犹豫，快来加入我们，成为改变所有人生活的人
@@ -170,16 +186,16 @@
 								<li>
 									<h3>新世界志愿者协议</h3>
 									<p>加入新世界志愿者的人员必须遵守中华人民共共和国的相关法律法规，并且本着平等资源的原则 ......</p>
-									<p>more</p>
+									<p><img src="image/a7.9.gif"/>more</p>
 								</li>
 								<li>
 									<h3>新世界志愿者协议</h3>
 									<p>加入新世界志愿者的人员必须遵守中华人民共共和国的相关法律法规，并且本着平等资源的原则 ......</p>
-									<p>more</p>
+									<p><img src="image/a7.9.gif"/>more</p>
 								</li>
 								<li>
 									<h3>更多条款</h3>
-									<p>more</p>
+									<p><img src="image/a7.9.gif"/>more</p>
 								</li>
 							</ul>
 
@@ -188,45 +204,44 @@
 									<table>
 										<tr>
 											<td>
-												<div>
+												<div class="greyform">
 													<label for="name">姓名:</label>
-													<input type="text" id="name" value="呼呼">
+													<input type="text" id="name">
 												</div>
 											</td>
 											<td>
-												<div>
+												<div class="greyform">
 													<label for="age">年龄:</label>
-													<input type="text" id="age" value="24">
-												</div>
+													<input type="text" id="age">
+												</div class="greyform">
 											</td>
 										</tr>
 										<tr>
 											<td>
-												<div>
-													<label for="email">邮箱:</label>
+												<div class="greyform">
+													<label for="email">联系方式:</label>
 													<input type="text" id="email">
 												</div>
 											</td>
 											<td>
-												<div>
+												<div class="greyform">
 													<label for="address">联系地址:</label>
 													<input type="text" id="address">
 												</div>
 											</td>
 										</tr>
 										<tr>
-											<td colspan="2">
+											<td colspan="2" id="yourdream">
 												<div>
-													<textarea>
-														请简单描述你的梦想生活
+													<textarea>请简单描述您梦想的生活:
 													</textarea>
 												</div>
 											</td>
 										</tr>
-										<tr colspan="2">
-											<td>
+										<tr>
+											<td colspan="2" id="upload">
 												<div>
-													<input type="submit" value="提交" class="submit">
+													<input type="submit" value="提交申请" class="submit">
 												</div>
 											</td>
 										</tr>
@@ -249,8 +264,8 @@
 					也可以通过以下任何方式关注我们动态
 				</p>
 				<div class="seach">
-					<input type="text" name="seach" value="someone@email.com">
-					<span>提交</span>
+					<input type="text" value="someone@email.com">
+					<input type="submit" value="提交">
 				</div>
 				<div class="contect_tool">
 					<img src="image/a7.5.png">
@@ -262,7 +277,7 @@
 
 			<div class="copyright">
 				<p>@2016新世界</p>
-				<p><a href="#">Back to top</a></p>
+				<p id="backtotop"><a href="#wrapper">Back to top</a></p>
 			</div>
 		</div>
 

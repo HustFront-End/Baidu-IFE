@@ -1,0 +1,78 @@
+﻿<DOCTTYPE html>
+<html>
+<head lang="en">
+	<title>Hust Front-End</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<link rel="stylesheet" type="text/css" href="NavIndex.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script>
+    $(document).ready(function() {
+    	$(".undone").click(function(){
+    		alert("非常抱歉，我们还没有做到这个任务来喔\n不过你可以看看之前的任务啦，么么哒！")
+    	});
+    	$("#firststage li").mouseover(function(){
+    		$(this).css("opacity","0.6")
+    	});
+    	$("#firststage li").mouseout(function(){
+    		$(this).css("opacity","1")
+    	});
+    })
+	</script>
+</head>
+<body>
+<img src="image/Mountain.jpg" alt="Mountain" id="mountain">
+<div id="first"><a href="https://github.com/HustFront-End/Baidu-IFE.git" target="blank">The First Stage Task</a></div>
+<div id="Introduce">
+	<p id="Hust">H&nbspU<br/>S&nbspT</p>
+	<p id="team">Front-End</p>
+	<div id="members">
+	<p>Members<br/>胡佳静&nbsp夏承浩&nbsp俞亮<br/>谭心玥&nbsp谭傜月</p>
+    </div>
+</div>
+<div id="firststage">
+
+<ul class="tasklinkleft">
+<li id="task1">
+<a href="http://hucece.github.io/task001.1/">任务一：零基础HTML编码</a>
+</li>
+<li id="task2" class="undone">
+<a href="#">任务二：零基础HTML及CSS编码（一）</a>
+</li>
+<li id="task3" class="undone">
+<a href="#">任务三：三栏式布局</a>
+</li>
+<li id="task4" class="undone">
+<a href="#">任务四：定位和居中问题</a>
+</li>
+<li id="task5" class="undone">
+<a href="#">任务五：零基础HTML及CSS编码（二）</a>
+</li>
+<li id="task6" class="undone">
+<a href="#">任务六：通过HTML及CSS模拟报纸排版</a>
+</li>
+</ul>
+<ul class="tasklinkright"> 
+<li id="task7" class="undone">
+<a href="#">任务七：常见官网页面架构及样式布局</a>
+</li>
+<li id="task8" class="undone">
+<a href="#">任务八：响应式网格（栅格化）布局</a>
+</li>
+<li id="task9" class="undone">
+<a href="#">任务九：使用HTML/CSS实现复杂页面</a>
+</li>
+<li id="task10" class="undone">
+<a href="#">任务十：Flexbox 布局练习</a>
+</li>
+<li id="task11" class="undone">
+<a href="#">任务十一：移动Web页面布局实践</a>
+</li>
+<li id="task12" class="undone">
+<a href="#">任务十二：学习CSS 3的新特性</a>
+</li>
+</ul>
+</div>
+
+
+</body>
+</html>

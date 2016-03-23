@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	padding: 20px;
+	display: flex;
+	flex-flow: row wrapper;
+	justify-content: space-between;
+}
+.wrapper div{
+	width: 150px;
+	border: 1px solid #f00;
+	margin-bottom: 20px;
+}
+.item1{
+	height: 120px;
+}
+.item2{
+	height: 100px;
+}
+.item3{
+	height: 40px;
+}
+.wrapper .item4{
+	height: 200px;
+	border: 1px solid #0f0;
+}
+
+@media (max-width: 640px){
+	.wrapper {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      .item4 {
+        order: -1;
+      }
+}

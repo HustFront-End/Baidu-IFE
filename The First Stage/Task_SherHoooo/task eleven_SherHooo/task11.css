@@ -1,0 +1,32 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:"Microsoft Yahei"，"微软雅黑","SimSun"，"宋体","SimHei","黑体";
+}
+#head,#nav{
+	height:80px;
+}
+#head{
+	background-color:#91d4da;
+	color:#fff;
+	text-align:center;
+	line-height: 80px;
+}
+.back{
+	float:left;
+}
+#nav ul{
+	width:100%;
+	height:100%;
+}
+#nav li{
+	width:19%;
+	text-align:center;
+	display:inline-block;
+	line-height: 80px
+}
+.nowindex{
+	border-bottom: 3px solid #91d7d7;
+}

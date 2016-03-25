@@ -1,0 +1,38 @@
+#wrapper{
+	display:flex;
+	flex-flow:row wrap;
+	padding:20px;
+	justify-content:space-between;
+}
+#wrapper div{
+	width:150px;
+}
+.one,.two,.three{
+	border: 2px solid #f00;
+}
+.one{
+	height: 120px;
+}
+.two{
+	height:100px;
+}
+.three{
+	height:40px;
+}
+.four{
+	height:200px;
+	border:2px solid #00f;
+}
+@media (max-width:640px){
+#wrapper{
+	align-items:flex-start;
+}
+.four{
+	order:-1;
+}
+}
+@media (min-width:641px){
+#wrapper{
+	align-items:center;
+}
+}

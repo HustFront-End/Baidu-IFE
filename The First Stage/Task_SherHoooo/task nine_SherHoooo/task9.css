@@ -1,0 +1,106 @@
+/*清除元素自定义内外边距*/
+*{
+    margin:0;
+    padding:0;
+ }
+ body{
+ 	    font-family:"黑体","Microsoft YaHei","宋体",sans-serif;
+ }
+ /*顶部*/
+#head{
+	padding-left:50px;
+	height:60px;
+	background-color:#2289bf;
+}
+.search{
+	margin:15px 20px 15px 0px;
+	float:right;
+	width:300px;
+	height:30px;
+	border-radius:15px;
+	background-color:#fff;
+}
+.search img{
+	margin:5px;
+}
+.search input{
+	float:right;
+	width:250px;
+	height:24px;
+	margin:3px 10px 3px 0px;
+	border:none;
+	outline:none;
+	font-size:16px;
+}
+.login{
+	float:right;
+	color:#fff;
+	height:30px;
+	margin:15px 40px 15px 0px;
+}
+.login img{
+	float:left;
+	margin-right:3px;
+}
+
+/*侧边导航栏*/
+#nav{
+	background-color:#2b2e3d;
+	width:20%;
+	height:1500px;
+	color:#6e8096;
+	font-size:14px;
+}
+#nav table{
+	border:none;
+	margin:auto;
+}
+#nav td{
+	text-align:center;
+	width:80px;
+}
+.user{
+	color:#e2e2e2;
+	font-size:18px;
+}
+.collection{
+	border-right:1px solid #6b7c91;
+}
+.number{
+	font-size:18px;
+}
+.tab{
+	width:100%;
+}
+.firstStage{
+	list-style:none;
+	width:100%;
+	box-sizing:border-box;
+	padding:20px 0px 20px 30px;
+}
+.firstStage img{
+	margin-right:5px;
+}
+.secondStage,.thirdStage{
+	list-style:none;
+	margin:15px;
+	display:none;
+}
+.secondStage li,.thirdStage li{
+	margin:10px;
+}
+li.firstStage:hover{
+	color:#e2e2e2;
+	background-color:#383d4e;
+}
+li.firstStage:hover .secondStage{
+	display:block;
+	color:#6e8096;
+}
+.secondStage li:hover{
+	color:#e2e2e2;
+}
+.secondStage li:hover .thirdStage{
+	display:block;
+	color:#6e8096;
+}

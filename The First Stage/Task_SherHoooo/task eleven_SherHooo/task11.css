@@ -40,3 +40,13 @@ body{
 .nowindex{
 	border-bottom: 3px solid #91d7d7;
 }
+.tag{
+	margin:20px 0px 20px 0px ;
+}
+hr{
+	border:none;
+	height:2px;
+	background-color:#e0e0e0;
+	width:95%;
+	margin:auto;
+}

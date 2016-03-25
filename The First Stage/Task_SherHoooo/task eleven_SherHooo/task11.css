@@ -4,18 +4,22 @@
 }
 body{
 	font-family:"Microsoft Yahei"，"微软雅黑","SimSun"，"宋体","SimHei","黑体";
+	font-size:14px;
 }
 #head,#nav{
-	height:80px;
+	height:60px;
 }
 #head{
 	background-color:#91d4da;
 	color:#fff;
 	text-align:center;
-	line-height: 80px;
+	line-height: 60px;
 }
 .back{
 	float:left;
+}
+#nav{
+	width:100%;
 }
 #nav ul{
 	width:100%;
@@ -25,7 +29,7 @@ body{
 	width:19%;
 	text-align:center;
 	display:inline-block;
-	line-height: 80px
+	line-height: 60px
 }
 .nowindex{
 	border-bottom: 3px solid #91d7d7;

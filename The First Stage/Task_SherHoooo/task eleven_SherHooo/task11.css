@@ -34,11 +34,14 @@ body{
 	height:100%;
 }
 #nav li{
-	width:18%;
+	width:19%;
 	text-align:center;
 	display:inline-block;
 	line-height: 60px
 }
 .nowindex{
 	border-bottom: 3px solid #91d7d7;
+}
+#banner{
+	width:100%;
 }

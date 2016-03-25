@@ -94,3 +94,30 @@ td{
 	text-align: center;
 	line-height:0.5em;
 }
+.news{
+	padding:20px;
+	border-bottom:2px solid #e0e0e0;
+	overflow: hidden;
+}
+.news h1{
+	font-size: 22px;
+}
+.news p{
+	margin-top:50px;
+	color:#e0e0e0;
+}
+.news img{
+	width:180px;
+	float:left;
+	margin-right:15px;
+}
+.threeimg img{
+	float:none;
+	margin-right:-5px;
+}
+.threeimg p{
+	margin-top:10px;
+}
+.threeimg h1{
+	margin-bottom:10px;
+}

@@ -5,6 +5,12 @@
 body{
 	font-family:"SimHei","Microsoft Yahei","SimSun";
 	font-size:20px;
+	background-color:#f5f5f5;
+}
+.wrapper{
+	padding-bottom:20px;
+	margin-bottom:30px;
+	background-color:#fff;
 }
 #head,#nav{
 	height:60px;
@@ -47,6 +53,12 @@ body{
 .tag{
 	margin:20px 0px 20px 0px ;
 }
+.tag img{
+	width:40px;
+}
+.lovelybear img{
+	width:60px;
+}
 hr{
 	border:none;
 	height:2px;
@@ -57,4 +69,28 @@ hr{
 .middleli{
 	border-left:2px solid #e0e0e0;
 	border-right:2px solid #e0e0e0;
+}
+.block{
+	padding:20px;
+}
+.block table{
+	border-collapse:collapse;
+}
+.block hr{
+	margin:20px 0px 10px 0px;
+}
+.imgcell{
+	width:25%;
+	background-color:#fff;
+	border-left:none;
+}
+.imgcell img{
+	width:150px;
+}
+td{
+	width:37.5%;
+	border:15px #fff solid;
+	background-color:#f8f8f8;
+	text-align: center;
+	line-height:0.5em;
 }

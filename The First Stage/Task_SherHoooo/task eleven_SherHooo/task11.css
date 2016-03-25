@@ -26,22 +26,17 @@ body{
 	float:left;
 	margin:18px 10px 0px 20px;
 }
-#nav{
+#nav,#nav ul,.tag,#banner{
 	width:100%;
 }
-#nav ul{
-	width:100%;
-	height:100%;
-}
-#nav li{
+#nav li,.tag li{
 	width:19%;
 	text-align:center;
 	display:inline-block;
-	line-height: 60px
+}
+#nav li{
+	line-height: 60px;
 }
 .nowindex{
 	border-bottom: 3px solid #91d7d7;
-}
-#banner{
-	width:100%;
 }

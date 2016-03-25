@@ -3,7 +3,7 @@
 	margin:0;
 }
 body{
-	font-family:"Microsoft Yahei"，"微软雅黑","SimSun"，"宋体","SimHei","黑体";
+	font-family:"SimHei","Microsoft Yahei","SimSun";
 	font-size:20px;
 }
 #head,#nav{
@@ -26,13 +26,17 @@ body{
 	float:left;
 	margin:18px 10px 0px 20px;
 }
-#nav,#nav ul,.tag,.banner,.banner img{
+#nav,#nav ul,.tag,.banner img{
 	width:100%;
 }
+#nav ul,.tag ul{
+	display: -webkit-box;
+	list-style: none;
+}
 #nav li,.tag li{
-	width:19%;
+	-webkit-box-flex:1;
 	text-align:center;
-	display:inline-block;
+	line-height: 2em;
 }
 #nav li{
 	line-height: 60px;
@@ -49,4 +53,8 @@ hr{
 	background-color:#e0e0e0;
 	width:95%;
 	margin:auto;
+}
+.middleli{
+	border-left:2px solid #e0e0e0;
+	border-right:2px solid #e0e0e0;
 }

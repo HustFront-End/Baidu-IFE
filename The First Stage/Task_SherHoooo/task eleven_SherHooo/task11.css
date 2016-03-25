@@ -4,7 +4,7 @@
 }
 body{
 	font-family:"Microsoft Yahei"，"微软雅黑","SimSun"，"宋体","SimHei","黑体";
-	font-size:14px;
+	font-size:24px;
 }
 #head,#nav{
 	height:60px;
@@ -17,6 +17,13 @@ body{
 }
 .back{
 	float:left;
+	height:60px;
+}
+.back img{
+	width:14px;
+	height:23px;
+	float:left;
+	margin:18px 20px 0px 20px;
 }
 #nav{
 	width:100%;

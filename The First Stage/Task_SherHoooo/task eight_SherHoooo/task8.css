@@ -1,0 +1,46 @@
+/*清除元素自定义内外边距*/
+body,div,dl,dt,dd,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,blockquote,hr,button,article,aside,details,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+ }
+ body{
+ 	padding:10px;
+ }
+ .container{
+ 	padding:10px;
+ 	float:left;
+ 	box-sizing:border-box;
+ }
+ .inside{
+ 	height:50px;
+ 	background-color:#eee;
+ 	border:1px solid #999;
+ }
+@media (min-width: 769px) {
+	.col-md-1{width:8.334%;}
+	.col-md-2{width:16.667%;}
+	.col-md-3{width:25%;}
+	.col-md-4{width:33.334%;}
+	.col-md-5{width:41.667%;}
+	.col-md-6{width:50%;}
+	.col-md-7{width:58.333%;}
+	.col-md-8{width:66.667%;}
+	.col-md-9{width:75%;}
+	.col-md-10{width:83.334%;}
+	.col-md-11{width:91.667%;}
+	.col-md-12{width:100%;}
+}
+@media (max-width: 768px){
+	.col-nm-1{width:8.334%;}
+	.col-nm-2{width:16.667%;}
+	.col-nm-3{width:25%;}
+	.col-nm-4{width:33.334%;}
+	.col-nm-5{width:41.667%;}
+	.col-nm-6{width:50%;}
+	.col-nm-7{width:58.333%;}
+	.col-nm-8{width:66.667%;}
+	.col-nm-9{width:75%;}
+	.col-nm-10{width:83.334%;}
+	.col-nm-11{width:91.667%;}
+	.col-nm-12{width:100%;}
+}

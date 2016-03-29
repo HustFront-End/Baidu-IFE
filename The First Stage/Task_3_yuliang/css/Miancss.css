@@ -1,0 +1,43 @@
+.container{
+
+
+    overflow: auto;
+    border: solid aqua 2px;
+}
+
+.teamtitle{
+
+    padding:20px;
+    background-color: wheat;
+    border:solid aquamarine 2px ;
+    float: left;
+
+}
+.teamlogo{
+
+
+}
+.teamname{
+
+}
+.clear{
+    clear: both;
+    display: block;
+}
+.introduce{
+
+    padding:20px;
+
+    background-color: wheat;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.memberlogos{
+
+    border:solid aquamarine 2px ;
+    width: 80px;
+    float: right;
+    padding:20px;
+    background-color: wheat;
+}

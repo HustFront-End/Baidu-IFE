@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.operate{
+  padding: 20px;
+  overflow: hidden;
+}
+textarea{
+  display: block;
+  float: left;
+}
+ul{
+  float: left;
+  list-style: none;
+  overflow: hidden;
+}
+.operate li{
+  font-size: 12px;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 4px;
+  text-align: center;
+  border: 2px solid #ccc;
+  float: left;
+  cursor: pointer;
+}
+.operate #right_add{
+  margin-right: 20px;
+}
+#word{
+  float: left;
+  display: block;
+}
+.check_btn{
+  width: 60px;
+  height: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  text-align: center;
+  margin-left: 20px;
+}
+.word_list{
+ 
+  list-style: none;
+  font-size: 16px;
+  padding: 20px;
+  overflow: hidden;
+}
+.word_list li{
+  padding: 10px;
+  text-align: center;
+  background-color: red;
+  float: left;
+  margin-right: 10px;
+}

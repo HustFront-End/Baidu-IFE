@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.operate{
+  padding: 20px;
+  overflow: hidden;
+}
+.tag,.hoby{
+	height: 200px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+ul{
+  list-style: none;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.operate li{
+  font-size: 12px;
+  padding: 10px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 4px;
+  text-align: center;
+  border: 2px solid #ccc;
+  float: left;
+  cursor: pointer;
+}
+.conf{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+}
+

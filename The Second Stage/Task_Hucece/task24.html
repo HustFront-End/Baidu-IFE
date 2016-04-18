@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>树1</title>
+	<link rel="stylesheet" type="text/css" href="css/task24.css">
+	<script type="text/javascript" src="js/task24.js"></script>
+	<script type="text/javascript" src="js/util.js"></script>
+</head>
+	<div class="root" id="root">
+		<p>text0</p>
+		<div>
+			<p>text1</p>
+
+			<div>
+				<p>word1</p>
+				<div><p>bit1</p></div>
+				<div><p>bit2</p></div>
+				<div><p>bit3</p></div>
+				<div><p>bit4</p></div>				
+			</div>
+
+			<div>
+				<p>word2</p>
+			</div>
+
+			<div>
+				<p>word3</p>
+				<div><p>bit5</p></div>
+				<div><p>bit6</p></div>
+			</div>
+		</div>
+
+		<div>
+			<p>text2</p>
+
+			<div>
+				<p>word3</p>
+				<div>
+					<p>bit7</p>
+				</div>
+				<div>
+					<p>bit8</p>
+				</div>
+				<div>
+					<p>bit9</p>
+				</div>
+			</div>
+			<div>
+				<div>
+					<p>bit10</p>
+					<div>ky1</div>
+				</div>
+				<div><p>bit11</p></div>
+			</div>
+
+		</div>
+
+
+		<div class="col3">
+			<p>text3</p>
+		</div>		
+	</div>
+	<ul class="btns">
+		<li id="pre">前序</li>
+		<li id="post">后序</li>
+	</ul>
+	<div class="operate">
+		<input type="text" id="text">
+		<span id="search">查找</span>
+	</div>
+
+	<div class="operate">
+		<span id="delete">删除选中的节点及其子节点</span>
+		<input type="text" id="text_add">
+		<span id="add">添加选中节点的子节点</span>
+	</div>
+
+</html>

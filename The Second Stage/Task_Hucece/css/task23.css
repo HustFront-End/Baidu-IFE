@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.root div, .root{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding:10px;
+	margin: 2px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	background-color: #fff;
+
+}
+.root{
+	margin: 40px;
+}
+ul{
+	margin: 20px auto;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+ul li{
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+	margin-right: 20px;
+	float: left;
+	border: 1px solid #ccc;
+	list-style: none;
+	cursor: pointer;
+}
+.operate1{
+	text-align: center;
+}
+.operate1 span{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}

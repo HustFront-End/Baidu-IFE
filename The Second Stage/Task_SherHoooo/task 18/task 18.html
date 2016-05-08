@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>task 18</title>
+    <style type="text/css">
+        #wrapper{
+            width:600px;
+            border: 1px solid #ccc;
+            margin: 200px auto;
+            padding:10px;
+            overflow: hidden;
+        }
+        #wrapper input{
+            width:80px;
+            height:30px;
+            font-size: 16px;
+            border:1px solid #ccc;
+        }
+        #tip{
+            display: inline-block;
+            color:red;
+        }
+        #show span{
+            display: inline-block;
+            float:left;
+            margin-right: 20px;
+            background-color: red;
+            font-size:16px;
+            color:#FFF;
+            padding:5px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var num = [];
+            var value;
+            var input = document.getElementById("input");
+            var show = document.getElementById("show");
+            function leftIn() {
+                value=input.value;
+                num.splice(0,0,value);
+                var span = document.createElement("span");
+                var text = document.createTextNode(value);
+                span.appendChild(text);
+                show.insertBefore(span,show.childNodes[0]);
+            }
+
+            function rightIn() {
+                value=input.value;
+                num.push(value);
+                var span = document.createElement("span");
+                var text = document.createTextNode(value);
+                span.appendChild(text);
+                show.appendChild(span);
+            }
+
+            function leftOut() {
+                value=input.value;
+                num.shift(value);
+                show.removeChild(show.firstElementChild);
+            }
+
+            function rightOut() {
+                value=input.value;
+                num.pop(value);
+                show.removeChild(show.lastElementChild);
+            }
+            function init() {
+                var tips=document.getElementById("tip");
+                value=input.value;
+                var numTest = /^-?\d+(\.\d+)?$/;
+                if(value==""){
+                    tips.innerHTML="请输入数字";
+                }
+                else if(!numTest.test(value)){
+                    tips.innerHTML="只能输入纯数字喔";
+                }
+                else{
+                    tips.innerHTML="合法的输入";
+                    document.getElementById("left_in").onclick = leftIn;
+                    document.getElementById("right_in").onclick = rightIn;
+                    document.getElementById("left_out").onclick = leftOut;
+                    document.getElementById("right_out").onclick = rightOut;
+                }
+                }
+            input.onkeyup=init;
+        }
+    </script>
+</head>
+<body>
+<div id="wrapper">
+    <input type="text" id="input"/>
+    <button id="left_in">左侧入</button>
+    <button id="right_in">右侧入</button>
+    <button id="left_out">左侧出</button>
+    <button id="right_out">右侧出</button>
+    <span id="tip"></span>
+    <p id="show"></p>
+</div>
+</body>
+</html>
